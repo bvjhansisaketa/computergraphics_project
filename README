@@ -1,0 +1,57 @@
+﻿Project: Computer Graphics
+
+Scene with Season Changes
+
+Tanmay Desai and Jhansi Saketa BV
+Department of Computer Science
+
+
+Key bindings
+  
+  0 		 Reset theta and phi
+  o/O        For different seasons
+  arrows     Change view angle
+  l/L		 For light source off/On
+  [/]        Decreasing/Increasing light position in y-axis respectively
+  d/D		 To decrease/increase light diffusion respectively
+  s/S		 To decrease/increase light specularity respectively
+  e/E  	 To decrease/increase light Emission respectively
+  n/N 	 To decrease/increase light shininess respectively
+  -/+        To decrease/increase field of view respectively
+  ESC        Exit
+
+Why we deserve A?
+
+Without any prior opengl we tried to make best out of the things you taught. We know it’s not the best but we learned a lot during this project and course.
+
+What to see:
+1. 3d Scene
+1. The first scene is changing of seasons.
+	a. First is summer with day
+ 	b. Next is rain with day where the trees and grass change to green
+	c. Next is hail with fog and day
+	d. Last is snow with fog and day, after hail, the snow formation can be seen.
+The above season changes are automatic, they change after every period of time
+after all the season changes, we showed the night view for the season changes.
+Where you can find the difference in day and night scenes.
+
+For user who want to see seasons seperately, we created views for the seasons.
+2. The next view is Rain.
+3. The next view is Hail.
+4. The next view is snow.
+5. The last view is summer.
+2. Shadows:
+We created shadows for all the objects including the moving cars, trees and all the objects. You can see that the shadows disappear when lights are off. 
+3. Texturing:
+We added good texturing to all objects.
+4. The cycles that we created where there is no need of any user inputs and they are automatic.
+5. Texturing and movement of the car.
+
+Credits:
+For the rain code.
+https://gist.github.com/thaenor/4d9531cc9a7d1c34b998
+We understood the code and changed it according to our scene and requirement.
+
+  
+
+  
